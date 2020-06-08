@@ -1,5 +1,5 @@
 <template> 
-  <div>
+  <div class="sideList">
     <nav>
         <ul>
           <li>
@@ -7,9 +7,23 @@
           </li>
           <li>
             <nuxt-link to="#">ABOUT US</nuxt-link>
+            <ul class="aboutList">
+              <li>
+                <nuxt-link to="#">CONCEPT</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="#">TOP MESSAGE</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="#">COMPANY</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="#">ACCESS</nuxt-link>
+              </li>
+            </ul>
           </li>
           <li>
-            <nuxt-link to="/brands">BANDS</nuxt-link>
+            <nuxt-link to="/brands">BRANDS</nuxt-link>
           </li>
           <li>
             <nuxt-link to="#">SHOP LIST</nuxt-link>
@@ -32,7 +46,13 @@ export default {
 </script>
 
 <style>
-　　li {
-      list-style-type: none;
-    }
+
+.sideList li{
+  margin-bottom: 20px;
+}
+
+.aboutList li{
+  margin-bottom: 10px;
+  font-size: 14px;
+}
 </style>

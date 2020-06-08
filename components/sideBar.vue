@@ -1,21 +1,24 @@
 <template>
     <div class="sideBar">
         <sideNav />
+        <sideLink />
     </div>
 </template>
 
 <script>
 import SideNav from"@/components/sideNav";
+import SideLink from"@/components/sideLink";
 export default {
     components: {
-        SideNav
+        SideNav,
+        SideLink
     }
 };
 </script>
 
 <style>
    .sideBar {
-      top: 50%;
+      top: 30%;
       position: fixed;
       height: 100%;
   }
