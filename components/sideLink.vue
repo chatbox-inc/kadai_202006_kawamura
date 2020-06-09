@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="sideLink">
         <div class="link">
             <a href="#">
                 ONLINE STORE
@@ -23,4 +23,19 @@ export default {
     .link {
         margin: 10px 0 10px 38px;
     }
+
+/*スマホ対応*/
+@media
+ screen and (max-width: 1024px){
+
+     .sideLink{
+         display: flex;
+         justify-content: center;
+     }
+
+     .link{
+         margin: 30px;
+     }
+
+ }
 </style>

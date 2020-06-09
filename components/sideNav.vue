@@ -7,7 +7,7 @@
           </li>
           <li>
             <nuxt-link to="#">ABOUT US</nuxt-link>
-            <ul class="aboutList">
+            <!-- <ul class="aboutList">
               <li>
                 <nuxt-link to="#">CONCEPT</nuxt-link>
               </li>
@@ -20,7 +20,7 @@
               <li>
                 <nuxt-link to="#">ACCESS</nuxt-link>
               </li>
-            </ul>
+            </ul> -->
           </li>
           <li>
             <nuxt-link to="/brands">BRANDS</nuxt-link>
@@ -55,4 +55,23 @@ export default {
   margin-bottom: 10px;
   font-size: 14px;
 }
+
+  /*スマホ対応*/
+@media
+ screen and (max-width: 1024px){
+
+     .sideList{
+         text-align: center;
+         display: inline;
+
+     }
+
+     .sideList li{
+         padding: 0 30px;
+         top: 50%;
+         /* width: 100%; */
+
+     }
+ }
+
 </style>

@@ -37,9 +37,9 @@
                     </a>
                 </li>
             </ul>
-            <p>Copyright © 2020 A-net inc. All Rights Reserved.</p>
         </div>
         <div class="copyright">
+            <p>Copyright © 2020 A-net inc. All Rights Reserved.</p>
         </div>
     </footer>
     
@@ -62,7 +62,31 @@ footer li{
     text-align: right;
 }
 
+   /*スマホ対応*/
+@media
+ screen and (max-width: 1024px){
+     footer{
+         font-size: 12px;
+         text-align: center;
+     }
 
+     ul{
+         padding: 0;
+     }
+
+     footer li{
+         margin: 0 8px;
+     }
+
+     .footerRight{
+         text-align: center;
+         margin: 30px 0;
+     }
+
+     .footerRight li{
+         display: block;
+     }
+ }
 
 
 </style>

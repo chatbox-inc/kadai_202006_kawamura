@@ -22,5 +22,16 @@ export default {
       position: fixed;
       height: 100%;
   }
+
+  /*スマホ対応*/
+@media
+ screen and (max-width: 1024px){
+     .sideBar {
+         position: static;
+         top: 50%;
+         width: 100%;
+
+     }
+ }
 </style>
 

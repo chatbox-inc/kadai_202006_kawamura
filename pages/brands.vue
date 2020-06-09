@@ -148,7 +148,7 @@
             <img class="photo" src="https://www.a-net.com/wp/wp-content/uploads/2020/05/brands_ta2.jpg">
         </div>
         <div class="box">
-            <img src="https://www.a-net.com/wp/wp-content/uploads/2016/08/hs1708.jpg">
+            <img class= "photo" src="https://www.a-net.com/wp/wp-content/uploads/2016/08/hs1708.jpg">
             <div class="textBox">
                 <img src="https://www.a-net.com/wp/wp-content/themes/a-net/images/common/logo_hs.png" alt="humor">
                 <p>
@@ -165,12 +165,13 @@
 </div>
 </template>
 
-<style>
+<script>
+export default {
 
-.container{
-    margin: 0 0 0 200px;
-    text-align: center;
 }
+</script>
+
+<style>
 
 .brandList{
     padding-top: 230px;
@@ -193,12 +194,9 @@
     text-align: left;
 }
 
-.photo{
-
-}
-
 .box{
     display: inline-flex;
+    flex-wrap: wrap;
     margin-bottom: 230px;
 }
 
@@ -211,5 +209,41 @@
     width: 400px;
     margin: 0;
 }
+
+/*スマホ対応*/
+@media
+ screen and (max-width: 1024px){
+
+     .brandList{
+         margin: 0;
+         padding: 100px 0;
+     }
+
+     .brandList li img{
+         height: 15px;
+         width: auto;
+     }
+
+     .box{
+         justify-content: center;
+     }
+
+     .textBox{
+         margin: 0;
+     }
+
+     .textBox img{
+         height: 30px;
+         width: auto;
+     }
+
+     .textBox p{
+         width: 360px;
+     }
+
+     .photo{
+         width: 380px;
+     }
+ }
 
 </style>

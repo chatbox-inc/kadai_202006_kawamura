@@ -19,4 +19,14 @@ export default {
   .top-logo img{
     width: 120px;
   }
+
+  /*スマホ対応*/
+@media
+ screen and (max-width: 1024px){
+
+   .top-logo{
+     position: static;
+   }
+ }
+
 </style>

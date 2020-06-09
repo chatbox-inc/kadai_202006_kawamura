@@ -7,6 +7,12 @@
 </template>
 
 <style>
-  .container {
-  }
+ /*スマホ対応*/
+@media
+ screen and (max-width: 1024px){
+     .container img{
+       padding-top: 120px;
+       width: 70%;
+     }
+ }
 </style>

@@ -17,4 +17,12 @@ export default {
 
 <style>
 
+/*スマホ対応*/
+@media
+ screen and (max-width: 1024px){
+
+   
+
+ }
+
 </style>

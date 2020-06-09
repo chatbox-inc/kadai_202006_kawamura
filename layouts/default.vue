@@ -1,10 +1,10 @@
 <template>
   <div>
     <Header />
-    <SideBar />
     <main>
       <nuxt />
     </main>
+    <SideBar />
     <Footer />
   </div>
 </template>
@@ -24,6 +24,11 @@
 
 <style>
 
+.container{
+    margin: 0 0 0 200px;
+    text-align: center;
+}
+
   li{
     list-style: none;
   }
@@ -31,4 +36,13 @@
   a{
     text-decoration: none;
   }
+
+   /*スマホ対応*/
+@media
+ screen and (max-width: 1024px){
+     .container{
+         margin: 0 auto;
+     }
+ }
+
 </style>
