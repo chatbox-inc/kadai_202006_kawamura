@@ -47,29 +47,41 @@ export default {
 
 <style>
 
+a{
+    color: black;
+}
+
 .sideList li{
-  margin-bottom: 20px;
+  margin-bottom: 17px;
 }
 
 .aboutList li{
-  margin-bottom: 10px;
+  margin: 10px;
   font-size: 14px;
+  font-weight: bold;
 }
 
   /*スマホ対応*/
 @media
  screen and (max-width: 1024px){
 
-     .sideList{
-         text-align: center;
-         display: inline;
 
+     nav{
+        margin: 0 auto;
+        width: 300px;
      }
 
+   .sideList ul{
+        text-align: left;
+        margin-left: 60px;
+   }
+
      .sideList li{
-         padding: 0 30px;
-         top: 50%;
-         /* width: 100%; */
+         font-size: 13.5px;
+        margin: 20px 0;
+        display: inline-block;
+        top: 50%;
+        width: 40%;
 
      }
  }

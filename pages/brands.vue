@@ -1,5 +1,8 @@
 <template> 
 <div class="container">
+    <div class="title">
+        <h1>BRANDS</h1>
+    </div>
     <div class="brandList">
         <ul>
             <li>
@@ -42,8 +45,8 @@
     </div>
     <div class="brandDetail">
         <div class="box">
-                <img class="photo" src="https://www.a-net.com/wp/wp-content/uploads/2020/05/brands_zu2.jpg">
-            <div class="textBox">
+                <img class="photoR" src="https://www.a-net.com/wp/wp-content/uploads/2020/05/brands_zu2.jpg">
+            <div class="textBox boxR">
                 <img src="https://www.a-net.com/wp/wp-content/themes/a-net/images/common/logo_zu.png" alt="zucca">
                 <p>
                     着る人にも、見る人にも心地良く
@@ -56,7 +59,8 @@
             </div>
         </div>
         <div class="box">
-            <div class="textBox">
+            <img class="photoL" src="https://www.a-net.com/wp/wp-content/uploads/2020/05/brands_ne1.jpg">
+            <div class="textBox boxL">
                 <img src="https://www.a-net.com/wp/wp-content/themes/a-net/images/common/logo_ne.png" alt="ne-net">
                 <p>
                     「いま」を楽しむ人の日常着。
@@ -71,11 +75,10 @@
                     <br>2020 SPRING/SUMMER
                 </p>
             </div>
-            <img class="photo" src="https://www.a-net.com/wp/wp-content/uploads/2020/05/brands_ne1.jpg">
         </div>
         <div class="box">
-            <img class="photo" src="https://www.a-net.com/wp/wp-content/uploads/2020/04/nya_sp.jpg">
-            <div class="textBox">
+            <img class="photoR" src="https://www.a-net.com/wp/wp-content/uploads/2020/04/nya_sp.jpg">
+            <div class="textBox boxR">
                 <p>
                     デザイナー髙島一精による「Né-net」から
                     <br>生まれたキャラクター「にゃー」。
@@ -87,7 +90,8 @@
             </div>
         </div>
         <div class="box">
-            <div class="textBox">
+            <img class="photoL" src="https://www.a-net.com/wp/wp-content/uploads/2020/05/brands_mb2.jpg">
+            <div class="textBox boxL">
                 <img src="https://www.a-net.com/wp/wp-content/themes/a-net/images/common/logo_mb.png" alt="mercibeaucoup">
                 <p>
                     清く・楽しく・美しく。mercibeaucoup,
@@ -108,11 +112,10 @@
                     <br>2020 SPRING/SUMMER
                 </p>
             </div>
-            <img class="photo" src="https://www.a-net.com/wp/wp-content/uploads/2020/05/brands_mb2.jpg">
         </div>
         <div class="box">
-            <img class="photo" src="https://www.a-net.com/wp/wp-content/uploads/2020/05/brands_pl2.jpg">
-            <div class="textBox">
+            <img class="photoR" src="https://www.a-net.com/wp/wp-content/uploads/2020/05/brands_pl2.jpg">
+            <div class="textBox boxR">
                 <img src="https://www.a-net.com/wp/wp-content/themes/a-net/images/common/logo_pl.png" alt="plantation">
                 <p>
                     草木に毎日水をやるように、からだに毎日まとってあげたい。
@@ -130,7 +133,8 @@
             </div>
         </div>
         <div class="box">
-            <div class="textBox">
+            <img class="photoL" src="https://www.a-net.com/wp/wp-content/uploads/2020/05/brands_ta2.jpg">
+            <div class="textBox boxL">
                 <img src="https://www.a-net.com/wp/wp-content/themes/a-net/images/common/logo_ta.png" alt="tac:tac">
                 <p>
                     ひょっとした発見をする楽しみや喜び。
@@ -145,11 +149,10 @@
                     <br>2020 SPRING/SUMMER
                 </p>
             </div>
-            <img class="photo" src="https://www.a-net.com/wp/wp-content/uploads/2020/05/brands_ta2.jpg">
         </div>
         <div class="box">
-            <img class= "photo" src="https://www.a-net.com/wp/wp-content/uploads/2016/08/hs1708.jpg">
-            <div class="textBox">
+            <img class= "photoR" src="https://www.a-net.com/wp/wp-content/uploads/2016/08/hs1708.jpg">
+            <div class="textBox boxR">
                 <img src="https://www.a-net.com/wp/wp-content/themes/a-net/images/common/logo_hs.png" alt="humor">
                 <p>
                     A-netブランドを中心とした編集ショップです。
@@ -173,9 +176,23 @@ export default {
 
 <style>
 
+.title{
+    /* text-align: right; */
+    z-index: 100;
+    position: fixed;
+    top: 50px;
+    left: 90%;
+    width: fit-content;
+    transform: rotate(90deg);
+}
+
+.h1{
+    
+}
+
 .brandList{
     padding-top: 230px;
-    margin-bottom: 400px;
+    margin-bottom: 500px;
     padding-right: 80px;
 }
 
@@ -186,7 +203,7 @@ export default {
 
 .brandList li img{
     padding: 30px;
-    height: 20px;
+    height: 25px;
 }
 
 .textBox{
@@ -195,8 +212,8 @@ export default {
 }
 
 .box{
-    display: inline-flex;
-    flex-wrap: wrap;
+    vertical-align: middle;
+    display: flex;
     margin-bottom: 230px;
 }
 
@@ -210,39 +227,83 @@ export default {
     margin: 0;
 }
 
+.photoR{
+    margin-left: 50px;
+}
+
+.boxR{
+}
+
+.photoL{
+    position: relative;
+    left: 60%;
+}
+
+.boxL{
+    position: absolute;
+    right: 40%;
+}
+
 /*スマホ対応*/
 @media
  screen and (max-width: 1024px){
 
+     .title{
+         position: static;
+         width: 100%;
+         transform: rotate(0);
+     }
+
+     h1{
+         font-size: 16px;
+     }
+
      .brandList{
          margin: 0;
-         padding: 100px 0;
+         padding: 150px 0;
+     }
+
+     .brandList li{
+         width: 50%;
      }
 
      .brandList li img{
+         /* margin: 0 50px; */
          height: 15px;
          width: auto;
      }
 
      .box{
-         justify-content: center;
+         display: block;   
      }
 
      .textBox{
-         margin: 0;
+         margin: 0 auto;
+         width: 80%;
      }
 
      .textBox img{
+         margin: 30px 0;
          height: 30px;
          width: auto;
      }
 
      .textBox p{
-         width: 360px;
+         width: 100%;
      }
 
-     .photo{
-         width: 380px;
+     .photoR{
+         width: 80%;
+         margin: 0;
+     }
+
+     .photoL{
+         width: 80%;
+         position: static;
+     }
+
+     .boxL{
+         position: static;
      }
  }
 

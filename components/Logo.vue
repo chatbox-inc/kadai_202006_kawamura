@@ -1,8 +1,8 @@
 <template>
   <div class="top-logo">
-    <a href="https://www.a-net.com/">  
+    <nuxt-link to="/">
       <img src="https://www.a-net.com/wp/wp-content/themes/a-net/images/common/logo.png" alt="A-net">
-    </a>
+    </nuxt-link>
   </div>
 </template>
 <script>
@@ -17,7 +17,9 @@ export default {
     position: fixed;
   }
   .top-logo img{
-    width: 120px;
+    width: 98px;
+    margin: 38px;
+    margin-left: 48px;
   }
 
   /*スマホ対応*/
@@ -26,6 +28,12 @@ export default {
 
    .top-logo{
      position: static;
+   }
+
+   .top-logo img{
+     margin: 20px;
+     width: 80px;
+     height: auto;
    }
  }
 

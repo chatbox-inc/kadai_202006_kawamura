@@ -1,11 +1,11 @@
 <template>
     <div class="sideLink">
-        <div class="link">
+        <div class="link store">
             <a href="#">
                 ONLINE STORE
             </a>
         </div>
-        <div class="link">
+        <div class="link official">
             <a href="#">
                 2⊿_7
             </a>
@@ -20,6 +20,11 @@ export default {
 </script>
 
 <style>
+    .sideLink{
+        margin: 35px 0;
+        font-size: 13px;
+    }
+
     .link {
         margin: 10px 0 10px 38px;
     }
@@ -29,12 +34,23 @@ export default {
  screen and (max-width: 1024px){
 
      .sideLink{
-         display: flex;
-         justify-content: center;
+        margin: 0px auto;
+        width: 255px;
+        text-align: left;
+        margin-bottom: 50px;
+        /* margin-left: 80px; */
      }
 
      .link{
-         margin: 30px;
+         font-size: 11px;
+         padding: 0;
+         /* margin-left: 80px; */
+        display: inline;
+        top: 50%;
+     }
+
+     .store{
+         font-weight: 600;
      }
 
  }

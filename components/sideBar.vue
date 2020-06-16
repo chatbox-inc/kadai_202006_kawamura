@@ -17,10 +17,12 @@ export default {
 </script>
 
 <style>
+
    .sideBar {
-      top: 30%;
+      top: 32%;
       position: fixed;
       height: 100%;
+      margin-left: 10px;
   }
 
   /*スマホ対応*/
