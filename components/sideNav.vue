@@ -2,6 +2,9 @@
   <div class="sideList">
     <nav>
         <ul>
+          <li class="home">
+            <nuxt-link to="#">HOME</nuxt-link>
+          </li>
           <li>
             <nuxt-link to="#">NEWS</nuxt-link>
           </li>
@@ -55,6 +58,10 @@ a{
   margin-bottom: 17px;
 }
 
+.sideList .home{
+    display: none;
+}
+
 .aboutList li{
   margin: 10px;
   font-size: 14px;
@@ -71,17 +78,21 @@ a{
         width: 300px;
      }
 
+     .sideList .home{
+         display: inline-block;
+     }
+
    .sideList ul{
         text-align: left;
-        margin-left: 60px;
+        margin-left: 50px;
    }
 
      .sideList li{
-         font-size: 13.5px;
+        font-size: 13.5px;
         margin: 20px 0;
         display: inline-block;
         top: 50%;
-        width: 40%;
+        width: 45%;
 
      }
  }

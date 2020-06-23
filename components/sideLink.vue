@@ -21,6 +21,7 @@ export default {
 
 <style>
     .sideLink{
+        font-weight: 600;
         margin: 35px 0;
         font-size: 13px;
     }
@@ -35,7 +36,7 @@ export default {
 
      .sideLink{
         margin: 0px auto;
-        width: 255px;
+        width: 280px;
         text-align: left;
         margin-bottom: 50px;
         /* margin-left: 80px; */

@@ -69,7 +69,7 @@ footer{
 }
 
 footer li{
-    display: inline;
+    display: inline-block;
     margin: 0 15px;
 }
 

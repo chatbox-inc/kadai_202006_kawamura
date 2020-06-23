@@ -30,10 +30,11 @@
       .topPhoto img{
         width: 90%;
         height: auto;
+        padding: 70px 0;
      }
 
      .container img{
-       padding: 90px 0;
+
      }
  }
 </style>
