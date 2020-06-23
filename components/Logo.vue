@@ -31,8 +31,8 @@ export default {
    }
 
    .top-logo img{
-     margin: 20px;
-     width: 80px;
+     margin: 10px;
+     width: 70px;
      height: auto;
    }
  }

@@ -94,22 +94,23 @@ input[type="checkbox"] {
      .open{
          position: fixed;
          font-size: 23px;
-         top: 10px;
-         right: 10px;
+         top: 22px;
+         right: 18px;
      }
 
      .close {
          position: fixed;
          font-size: 30px;
-         top: 10px;
-         right: 10px;
+         top: 22px;
+         right: 18px;
      }
 
      input[type="checkbox"]:checked ~ .spList {
          display:block;
          position: fixed;
+         top: 0;
+         left: 0;
      }
-
 
      .spList{
          font-size:14px;

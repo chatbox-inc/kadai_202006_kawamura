@@ -489,17 +489,19 @@ export default {
      }
 
      .brandList ul{
-         margin: 0 auto;
+         display: flex;
          width: 300px;
+         flex-wrap: wrap;
+         margin: 0 auto;
      }
 
      .brandList li{
-         display: inline-block;
-         width: 40%;
+         margin: 28px 0;
+         width: 50%;
      }
 
      .brandList li img{
-         padding: 15px 10px;
+         padding: 0;
      }
 
     .zucca-logo{

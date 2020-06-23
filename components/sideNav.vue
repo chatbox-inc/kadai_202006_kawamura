@@ -72,10 +72,12 @@ a{
 @media
  screen and (max-width: 1024px){
 
+     .sideList{
+         width: 300px;
+     }
 
-     nav{
-        margin: 0 auto;
-        width: 300px;
+     .sideList nav{
+        margin-left: 50px;
      }
 
      .sideList .home{
@@ -84,7 +86,6 @@ a{
 
    .sideList ul{
         text-align: left;
-        margin-left: 50px;
    }
 
      .sideList li{

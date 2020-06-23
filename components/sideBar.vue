@@ -31,7 +31,8 @@ export default {
      .sideBar {
          position: static;
          top: 50%;
-         width: 100%;
+         margin: 0 auto;
+         width: 300px;
 
      }
  }
