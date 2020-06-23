@@ -107,7 +107,7 @@ input[type="checkbox"] {
 
      input[type="checkbox"]:checked ~ .spList {
          display:block;
-         position:absolute;
+         position: fixed;
      }
 
 
@@ -137,7 +137,8 @@ input[type="checkbox"] {
      }
 
      .spLink ul{
-         width: 100%;
+         margin: 0 auto;
+         width: 80%;
      }
 
      .spLink li{
