@@ -71,18 +71,18 @@ li:hover:after{
 
    /*スマホ対応*/
 @media
- screen and (max-width: 1024px){
-     .container{
-         margin: 0 auto;
-     }
+screen and (max-width: 1024px){
+    .container{
+        margin: 0 auto;
+    }
 
-     ul{
-         padding: 0;
-     }
+    ul{
+        padding: 0;
+    }
 
-     li:after {
-       display: none;
-     }
- }
+    li:after {
+        display: none;
+    }
+}
 
 </style>

@@ -21,20 +21,20 @@
 
  /*スマホ対応*/
 @media
- screen and (max-width: 1024px){
+screen and (max-width: 1024px){
 
-      .topPhoto{
-        padding: 0;
-     }
+  .topPhoto{
+    padding: 0;
+  }
 
-      .topPhoto img{
-        width: 90%;
-        height: auto;
-        padding: 70px 0;
-     }
+  .topPhoto img{
+    width: 90%;
+    height: auto;
+    padding: 70px 0;
+  }
 
-     .container img{
+  .container img{
 
-     }
- }
+  }
+}
 </style>

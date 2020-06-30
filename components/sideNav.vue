@@ -94,33 +94,33 @@ nav ul{
 
   /*スマホ対応*/
 @media
- screen and (max-width: 1024px){
+    screen and (max-width: 1024px){
 
-     .sideList{
-         width: 300px;
-     }
+    .sideList{
+        width: 300px;
+    }
 
-     .sideList .home{
-         display: inline-block;
-     }
+    .sideList .home{
+        display: inline-block;
+    }
 
-     .aboutList{
-         display: none;
-     }
+    .aboutList{
+        display: none;
+    }
 
-   .sideList ul{
+    .sideList ul{
         margin-left:  50px;
         display: flex;
         flex-wrap: wrap;
         width: 250px;
         text-align: left;
-   }
+    }
 
-     .sideList li{
+    .sideList li{
         font-size: 13.5px;
         margin: 10px 0;
         width: 50%;
-     }
+    }
  }
 
 </style>

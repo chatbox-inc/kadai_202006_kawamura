@@ -40,33 +40,31 @@ export default {
 @media
  screen and (max-width: 1024px){
 
-     .sideLink{
+    .sideLink{
         margin: 0 0 50px 0;
-        /* margin-left: 80px; */
-     }
+    }
 
-     .sideLink ul{
-         display: flex;
-         width: 250px;
-         margin: 0 0 0 50px;
-         text-align: left;
-     }
+    .sideLink ul{
+        display: flex;
+        width: 250px;
+        margin: 0 0 0 50px;
+        text-align: left;
+    }
 
-     .sideLink li{
-         width: 50%;
-     }
+    .sideLink li{
+        width: 50%;
+    }
 
-     .link{
-         font-size: 11px;
-         padding: 0;
-         /* margin-left: 80px; */
+    .link{
+        font-size: 11px;
+        padding: 0;
         display: inline;
         top: 50%;
-     }
+    }
 
-     .store{
-         font-weight: 600;
-     }
+    .store{
+        font-weight: 600;
+    }
 
  }
 </style>

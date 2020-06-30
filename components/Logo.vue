@@ -24,17 +24,17 @@ export default {
 
   /*スマホ対応*/
 @media
- screen and (max-width: 1024px){
+screen and (max-width: 1024px){
 
-   .top-logo{
-     position: static;
-   }
+  .top-logo{
+    position: static;
+  }
 
-   .top-logo img{
-     margin: 10px;
-     width: 70px;
-     height: auto;
-   }
- }
+  .top-logo img{
+    margin: 10px;
+    width: 70px;
+    height: auto;
+  }
+}
 
 </style>

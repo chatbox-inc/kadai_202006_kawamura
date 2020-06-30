@@ -471,105 +471,105 @@ h1{
 
 /*スマホ対応*/
 @media
- screen and (max-width: 1024px){
+screen and (max-width: 1024px){
 
-     .title{
-         position: static;
-         width: 100%;
-         transform: rotate(0);
-     }
-
-     h1{
-         font-size: 16px;
-     }
-
-     .brandList{
-         margin: 0;
-         padding: 150px 0;
-     }
-
-     .brandList ul{
-         display: flex;
-         width: 300px;
-         flex-wrap: wrap;
-         margin: 0 auto;
-     }
-
-     .brandList li{
-         margin: 27px 0;
-         width: 50%;
-     }
-
-     .brandList li img{
-         padding: 0;
-     }
-
-    .zucca-logo{
-        height: 13px;
+    .title{
+        position: static;
+        width: 100%;
+        transform: rotate(0);
     }
 
-    .nenet-logo{
-        height: 13px;
+    h1{
+        font-size: 16px;
     }
 
-    .nya-logo{
-        height: 28px;
+    .brandList{
+        margin: 0;
+        padding: 150px 0;
     }
 
-    .mercibeaucoup-logo{
-        height: 11px;
+    .brandList ul{
+        display: flex;
+        width: 300px;
+        flex-wrap: wrap;
+        margin: 0 auto;
     }
 
-    .plantation-logo{
-        height: 11px;
+    .brandList li{
+        margin: 27px 0;
+        width: 50%;
     }
 
-    .tactac-logo{
-        height: 11px;
+    .brandList li img{
+        padding: 0;
     }
 
-    .humor-logo{
-        height: 11px;
+.zucca-logo{
+    height: 13px;
+}
+
+.nenet-logo{
+    height: 13px;
+}
+
+.nya-logo{
+    height: 28px;
+}
+
+.mercibeaucoup-logo{
+    height: 11px;
+}
+
+.plantation-logo{
+    height: 11px;
+}
+
+.tactac-logo{
+    height: 11px;
+}
+
+.humor-logo{
+    height: 11px;
+}
+
+    .box{
+        display: block;   
     }
 
-     .box{
-         display: block;   
-     }
+    .textBox{
+        margin: 0 auto;
+        width: 80%;
+    }
 
-     .textBox{
-         margin: 0 auto;
-         width: 80%;
-     }
+    .textBox img{
+        margin: 30px 0;
+        height: 20px;
+        width: auto;
+    }
 
-     .textBox img{
-         margin: 30px 0;
-         height: 20px;
-         width: auto;
-     }
+    .textBox p{
+        width: 100%;
+    }
 
-     .textBox p{
-         width: 100%;
-     }
+    .photoR{
+        padding: 0;
+        width: 80%;
+        margin: 0;
+    }
 
-     .photoR{
-         padding: 0;
-         width: 80%;
-         margin: 0;
-     }
+    .photoL{
+        padding: 0;
+        width: 80%;
+        position: static;
+    }
 
-     .photoL{
-         padding: 0;
-         width: 80%;
-         position: static;
-     }
+    .boxL{
+        position: static;
+    }
 
-     .boxL{
-         position: static;
-     }
-
-     .brandSite{
-         width:90%;
-     }
- }
+    .brandSite{
+        width:90%;
+    }
+}
 
 </style>

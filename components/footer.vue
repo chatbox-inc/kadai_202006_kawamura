@@ -83,30 +83,30 @@ footer li{
 
    /*スマホ対応*/
 @media
- screen and (max-width: 1024px){
-     footer{
-         line-height: 25px;
-         font-size: 12px;
-         text-align: center;
-     }
-
-     .footerLeft ul{
-    position: static;
+screen and (max-width: 1024px){
+    footer{
+        line-height: 25px;
+        font-size: 12px;
+        text-align: center;
     }
 
-     footer li{
-         margin: 0 auto;
+    .footerLeft ul{
+        position: static;
+    }
+
+    footer li{
+        margin: 0 auto;
      }
 
-     .footerRight{
-         text-align: center;
-         margin: 30px 0;
-         font-size: 11px;
+    .footerRight{
+        text-align: center;
+        margin: 30px 0;
+        font-size: 11px;
      }
 
-     .footerRight li{
-         display: block;
-     }
+    .footerRight li{
+        display: block;
+    }
  }
 
 

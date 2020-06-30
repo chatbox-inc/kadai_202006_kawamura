@@ -16,14 +16,14 @@ export default {
 
 /*スマホ対応*/
 @media
- screen and (max-width: 1024px){
-   header{
-     width: 100%;
-     height: 100px;
-     position: fixed;
-     top: 0;
-     left: 0;
-   }
+screen and (max-width: 1024px){
+  header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
    
 
  }

@@ -84,70 +84,70 @@ input[type="checkbox"] {
 
   /*スマホ対応*/
 @media
- screen and (max-width: 1024px){
+screen and (max-width: 1024px){
 
-     .open,
-     .close {
-         display: block;
-     }
+    .open,
+    .close {
+        display: block;
+    }
 
-     .open{
-         position: fixed;
-         font-size: 23px;
-         top: 22px;
-         right: 18px;
-     }
+    .open{
+        position: fixed;
+        font-size: 23px;
+        top: 22px;
+        right: 18px;
+    }
 
-     .close {
-         position: fixed;
-         font-size: 30px;
-         top: 22px;
-         right: 18px;
-     }
+    .close {
+        position: fixed;
+        font-size: 30px;
+        top: 22px;
+        right: 18px;
+    }
 
-     input[type="checkbox"]:checked ~ .spList {
-         display:block;
-         position: fixed;
-         top: 0;
-         left: 0;
-     }
+    input[type="checkbox"]:checked ~ .spList {
+        display:block;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
 
-     .spList{
-         font-size:14px;
-         padding: 120px 0;
-         z-index: 10000;
-         position: absolute;
-         background-color: white;
-         width: 100%;
-         height: 100%;
-         text-align: center;
-         display: none;
-     }
+    .spList{
+        font-size:14px;
+        padding: 120px 0;
+        z-index: 10000;
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: none;
+    }
 
-     .spList li{
-         margin: 25px auto;
-     }
+    .spList li{
+        margin: 25px auto;
+    }
 
-     .online{
-         font-size: 12px;
-         font-weight: 600;
-     }
+    .online{
+        font-size: 12px;
+        font-weight: 600;
+    }
 
-     .spLink{
+    .spLink{
          padding-top: 20px;
-     }
+    }
 
-     .spLink ul{
-         margin: 0 auto;
-     }
+    .spLink ul{
+        margin: 0 auto;
+    }
 
-     .spLink li{
-         display: inline-block;
-         margin: 0 5px;
-         font-size: 12px;
-     }
+    .spLink li{
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 12px;
+    }
 
- }
+}
 
 
 
