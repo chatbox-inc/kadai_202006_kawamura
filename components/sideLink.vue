@@ -1,15 +1,17 @@
 <template>
     <div class="sideLink">
-        <div class="link store">
-            <a href="#">
-                ONLINE STORE
-            </a>
-        </div>
-        <div class="link official">
-            <a href="#">
-                2⊿_7
-            </a>
-        </div>
+        <ul>
+            <li class="link store">
+                <a href="#">
+                    ONLINE STORE
+                </a>
+            </li>
+            <li class="link official">
+                <a href="#">
+                    2⊿_7
+                </a>
+            </li>
+        </ul>
     </div> 
 </template>
 
@@ -26,6 +28,10 @@ export default {
         font-size: 13px;
     }
 
+    .sideLink li{
+        margin-left: 0;
+    }
+
     .link {
         margin: 10px 0 10px 38px;
     }
@@ -35,11 +41,19 @@ export default {
  screen and (max-width: 1024px){
 
      .sideLink{
-        margin: 0px auto;
-        width: 280px;
-        text-align: left;
-        margin-bottom: 50px;
+        margin: 0 0 50px 0;
         /* margin-left: 80px; */
+     }
+
+     .sideLink ul{
+         display: flex;
+         width: 250px;
+         margin: 0 0 0 50px;
+         text-align: left;
+     }
+
+     .sideLink li{
+         width: 50%;
      }
 
      .link{

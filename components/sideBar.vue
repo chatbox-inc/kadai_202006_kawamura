@@ -23,6 +23,8 @@ export default {
       position: fixed;
       height: 100%;
       margin-left: 10px;
+      font-size: 14.5px;
+      letter-spacing: 2px;
   }
 
   /*スマホ対応*/
@@ -31,7 +33,6 @@ export default {
      .sideBar {
          position: static;
          top: 50%;
-         margin: 0 auto;
          width: 300px;
 
      }

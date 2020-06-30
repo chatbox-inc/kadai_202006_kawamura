@@ -41,13 +41,33 @@ template{
     letter-spacing: 0.8px;
 }
 
-  li{
+li{
+    width: fit-content;
     list-style: none;
+    position: relative;
   }
 
-  a{
+a{
     text-decoration: none;
   }
+
+li:after{
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: -8%;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.2s;
+    transform-origin: right;
+  }
+
+li:hover:after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
 
    /*スマホ対応*/
 @media
@@ -58,6 +78,10 @@ template{
 
      ul{
          padding: 0;
+     }
+
+     li:after {
+       display: none;
      }
  }
 

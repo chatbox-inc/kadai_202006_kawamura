@@ -79,7 +79,6 @@ footer li{
 
 .copyright{
     margin: 0 15px;
-    /* width: fit-content; */
 }
 
    /*スマホ対応*/
@@ -96,7 +95,7 @@ footer li{
     }
 
      footer li{
-         margin: 0 8px;
+         margin: 0 auto;
      }
 
      .footerRight{

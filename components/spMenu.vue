@@ -114,7 +114,7 @@ input[type="checkbox"] {
 
      .spList{
          font-size:14px;
-         padding: 100px 0;
+         padding: 120px 0;
          z-index: 10000;
          position: absolute;
          background-color: white;
@@ -125,7 +125,7 @@ input[type="checkbox"] {
      }
 
      .spList li{
-         margin: 13px 0;
+         margin: 25px auto;
      }
 
      .online{
@@ -139,14 +139,12 @@ input[type="checkbox"] {
 
      .spLink ul{
          margin: 0 auto;
-         width: 80%;
      }
 
      .spLink li{
          display: inline-block;
          margin: 0 5px;
          font-size: 12px;
-         width: fit-content;
      }
 
  }

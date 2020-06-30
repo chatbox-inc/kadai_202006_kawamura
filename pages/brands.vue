@@ -318,17 +318,17 @@ export default {
 <style>
 
 .title{
-    /* text-align: right; */
     z-index: 100;
     position: fixed;
-    top: 50px;
-    left: 90%;
+    top: 63px;
+    left: 89%;
     width: fit-content;
     transform: rotate(90deg);
 }
 
-.h1{
-    
+h1{
+    font-size: 26px;
+    letter-spacing: 3px;
 }
 
 .brandList{
@@ -342,10 +342,13 @@ export default {
     font-size: 0px;
 }
 
+.brandList li:after {
+    display: none;
+}
+
 .brandList li img{
     vertical-align: top;
     padding: 35px;
-    /* height: 20px; */
 }
 
 .zucca-logo{
@@ -407,13 +410,14 @@ export default {
 
 .officialLink ul{
     padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 
 .officialLink li{
     font-size: 11px;
     display: inline-block;
-    padding: 0 15px 10px 0;
+    padding: 0;
+    margin-right: 15px;
 }
 
 .collection{
@@ -461,10 +465,6 @@ export default {
     margin-bottom: 0;
 }
 
-.humor li{
-    padding: 0 10px 0 0;
-}
-
 .shopLink{
     margin-top: 5px;
 }
@@ -485,7 +485,7 @@ export default {
 
      .brandList{
          margin: 0;
-         padding: 100px 0;
+         padding: 150px 0;
      }
 
      .brandList ul{
@@ -496,7 +496,7 @@ export default {
      }
 
      .brandList li{
-         margin: 28px 0;
+         margin: 27px 0;
          width: 50%;
      }
 
@@ -513,7 +513,7 @@ export default {
     }
 
     .nya-logo{
-        height: 21px;
+        height: 28px;
     }
 
     .mercibeaucoup-logo{
