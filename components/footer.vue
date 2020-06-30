@@ -96,18 +96,17 @@ screen and (max-width: 1024px){
 
     footer li{
         margin: 0 auto;
-     }
+    }
 
     .footerRight{
         text-align: center;
         margin: 30px 0;
         font-size: 11px;
-     }
+    }
 
     .footerRight li{
         display: block;
     }
- }
-
+}
 
 </style>

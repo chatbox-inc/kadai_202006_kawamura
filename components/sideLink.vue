@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  components: {}
+    components: {}
 };
 </script>
 
@@ -66,5 +66,5 @@ export default {
         font-weight: 600;
     }
 
- }
+}
 </style>

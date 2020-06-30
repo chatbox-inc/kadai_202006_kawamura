@@ -1,52 +1,52 @@
 <template> 
-  <div class="sideList">
-    <nav>
-        <ul>
-          <li class="home">
-            <nuxt-link to="#">HOME</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="#">NEWS</nuxt-link>
-          </li>
-          <li class="aboutus">
-            <nuxt-link class="about" to="#">ABOUT US</nuxt-link>
-            <div class="aboutList">
-                <ul>
-                    <li>
-                        <nuxt-link to="#">CONCEPT</nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="#">TOP MESSAGE</nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="#">COMPANY</nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="#">ACCESS</nuxt-link>
-                    </li>
-                </ul>
-            </div>
-          </li>
-            <li>
-                <nuxt-link to="/brands">BRANDS</nuxt-link>
+    <div class="sideList">
+        <nav>
+            <ul>
+            <li class="home">
+                <nuxt-link to="#">HOME</nuxt-link>
             </li>
             <li>
-                <nuxt-link to="#">SHOP LIST</nuxt-link>
+                <nuxt-link to="#">NEWS</nuxt-link>
             </li>
-            <li>
-                <nuxt-link to="#">RECRUIT</nuxt-link>
+            <li class="aboutus">
+                <nuxt-link class="about" to="#">ABOUT US</nuxt-link>
+                <div class="aboutList">
+                    <ul>
+                        <li>
+                            <nuxt-link to="#">CONCEPT</nuxt-link>
+                        </li>
+                        <li>
+                            <nuxt-link to="#">TOP MESSAGE</nuxt-link>
+                        </li>
+                        <li>
+                            <nuxt-link to="#">COMPANY</nuxt-link>
+                        </li>
+                        <li>
+                            <nuxt-link to="#">ACCESS</nuxt-link>
+                        </li>
+                    </ul>
+                </div>
             </li>
-            <li>
-                <nuxt-link to="#">ACTION</nuxt-link>
-            </li>
-        </ul>
-      </nav>
-  </div>
+                <li>
+                    <nuxt-link to="/brands">BRANDS</nuxt-link>
+                </li>
+                <li>
+                    <nuxt-link to="#">SHOP LIST</nuxt-link>
+                </li>
+                <li>
+                    <nuxt-link to="#">RECRUIT</nuxt-link>
+                </li>
+                <li>
+                    <nuxt-link to="#">ACTION</nuxt-link>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </template>
 
 <script>
 export default {
-  components: {}
+    components: {}
 };
 </script>
 
@@ -67,7 +67,6 @@ nav ul{
 .sideList .home{
     display: none;
 }
-
 
 /* .about:hover ~ .aboutList {
     display: block;

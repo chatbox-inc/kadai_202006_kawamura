@@ -379,8 +379,6 @@ h1{
     height: 17px;
 }
 
-
-
 .textBox{
     margin: 0 50px;
     text-align: left;
@@ -504,33 +502,33 @@ screen and (max-width: 1024px){
         padding: 0;
     }
 
-.zucca-logo{
-    height: 13px;
-}
+    .zucca-logo{
+        height: 13px;
+    }
 
-.nenet-logo{
-    height: 13px;
-}
+    .nenet-logo{
+        height: 13px;
+    }
 
-.nya-logo{
-    height: 28px;
-}
+    .nya-logo{
+        height: 28px;
+    }
 
-.mercibeaucoup-logo{
-    height: 11px;
-}
+    .mercibeaucoup-logo{
+        height: 11px;
+    }
 
-.plantation-logo{
-    height: 11px;
-}
+    .plantation-logo{
+        height: 11px;
+    }
 
-.tactac-logo{
-    height: 11px;
-}
+    .tactac-logo{
+        height: 11px;
+    }
 
-.humor-logo{
-    height: 11px;
-}
+    .humor-logo{
+        height: 11px;
+    }
 
     .box{
         display: block;   

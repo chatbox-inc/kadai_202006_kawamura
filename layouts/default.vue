@@ -1,38 +1,39 @@
 <template>
-  <div>
-    <SpMenu />
-    <Header />
-    <Logo />
-    <main>
-      <nuxt />
-    </main>
-    <SideBar />
-    <Footer />
-  </div>
+    <div>
+        <SpMenu />
+        <Header />
+        <Logo />
+        <main>
+            <nuxt />
+        </main>
+        <SideBar />
+        <Footer />
+    </div>
 </template>
  
 <script>
-  import SpMenu from "@/components/spMenu.vue";//spメニュー読み込み
-  import Header from "@/components/header.vue"; //ヘッダーの読み込み
-  import Logo from "@/components/Logo.vue"; //ロゴの読み込み
-  import SideBar from "@/components/sideBar.vue"; //サイドバーの読み込み
-  import Footer from "@/components/footer.vue";//フッターの読み込み
-	export default {
-		components: {
-      SpMenu,
-      Header,
-      Logo,
-      SideBar,
-      Footer
-		}
-  };
-  
-</script>
+
+    import SpMenu from "@/components/spMenu.vue";//spメニュー読み込み
+    import Header from "@/components/header.vue"; //ヘッダーの読み込み
+    import Logo from "@/components/Logo.vue"; //ロゴの読み込み
+    import SideBar from "@/components/sideBar.vue"; //サイドバーの読み込み
+    import Footer from "@/components/footer.vue";//フッターの読み込み
+        export default {
+            components: {
+                SpMenu,
+                Header,
+                Logo,
+                SideBar,
+                Footer
+            }
+        };
+
+  </script>
 
 <style>
 
 template{
-  font-family: 'Lato','sans-serif';
+    font-family: 'Lato','sans-serif';
 }
 
 .container{
@@ -45,11 +46,11 @@ li{
     width: fit-content;
     list-style: none;
     position: relative;
-  }
+}
 
 a{
     text-decoration: none;
-  }
+}
 
 li:after{
     content: "";
@@ -62,7 +63,7 @@ li:after{
     transform: scaleX(0);
     transition: transform 0.2s;
     transform-origin: right;
-  }
+}
 
 li:hover:after{
     transform: scaleX(1);

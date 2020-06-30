@@ -35,6 +35,6 @@ screen and (max-width: 1024px){
         top: 50%;
         width: 300px;
     }
- }
+}
 </style>
 
